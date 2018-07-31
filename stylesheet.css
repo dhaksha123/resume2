@@ -4,6 +4,7 @@
   justify-content: center;
 }
 .child{
+  width: 30%;
   border:2px solid #5533ff;
   padding: 2%;
   margin:2%;
@@ -14,20 +15,22 @@ img{
   height:200px;
   border-radius: 50%;
   border: 2px solid #ddd;
+  display:block;
+
 }
 h2,
 a{
   text-align: center;
-
 }
-a{
-  display:block;
+.a{
+  display: block;
   text-align: center;
   text-decoration: none;
-  background-color: #5533FF;
-  color:#ff0;
-  padding:2%;
+  background: #1834E6;
+  color: #fff;
+  padding: 2%;
 }
+
 .leftchild{
   width:30%;
   border:2px solid #ddd;
@@ -41,5 +44,116 @@ a{
   border:2px solid #ddd;
   padding:2%;
   margin:2%;
+
+}
+.mail{
+  text-decoration: none;
+  font-size: 20px;
+}
+/* @media only screen and (min-width:320px) and (max-width:480px)
+parent{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.child{
+  width: 90%;
+  border:2px solid #5533ff;
+  padding: 2%;
+  margin:2%;
+  box-shadow: 3px 3px 3px #5533ff;
+}
+img{
+  width: 200px;
+  height:200px;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+  display:block;
+
+}
+h2{
+  text-align: center;
+}
+.a{
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  background: #1834E6;
+  color: #fff;
+  padding: 2%;
+}
+
+.leftchild{
+  width:90%;
+  border:2px solid #ddd;
+  padding:2%;
+  margin:2%;
+
+}
+
+.rightchild{
+  width:70%;
+  border:2px solid #ddd;
+  padding:2%;
+  margin:2%;
+
+}
+.mail{
+  text-decoration: none;
+  font-size: 20px;
+}
+body{
+  background-color: gray;
+
+} */
+/* Small screen devices */
+?*@media only screen and (min-width:320px) and (max-width:480px){
+  .parent{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .leftchild{
+    width:92%;
+    border:2px solid #ddd;
+    padding:2%;
+    margin:2%;
+
+  }
+
+  .rightchild{
+    width:92%;
+    border:2px solid #ddd;
+    padding:2%;
+    margin:2%;
+
+  }
+}*/
+/* Large screen devices  */
+@media only screen and (min-width:481px) and (max-width:768px){
+  .parent{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .leftchild{
+    width:92%;
+    border:2px solid #ddd;
+    padding:2%;
+    margin:2%;
+
+  }
+
+  .rightchild{
+    width:92%;
+    border:2px solid #ddd;
+    padding:2%;
+    margin:2%;
+
+  }
+
+}
+/* Tablets */
+@media only screen and (min-width:769px) and (max-width:1024px){
 
 }
