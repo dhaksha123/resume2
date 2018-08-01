@@ -5,24 +5,24 @@
   },
   "education":[
     {
-      "Degree":"MCA (master of computer applications)",
-      "Institute":"siddharth engineering and technology",
-      "Data":["2016-2019","80%"]
+      "degree":"MCA (master of computer applications)",
+      "institute":"Siddharth engineering and technology",
+      "data":["2016-2019","80%"]
     },
     {
-      "Degree":"B.sc(Mscs)",
-      "Institute":"RKM Degree college",
-      "Data":["2013-2016","80%"]
+      "degree":"B.sc(Mscs)",
+      "institute":"RKM Degree college",
+      "data":["2013-2016","80%"]
     },
     {
-      "Degree":"Intermediate(M.P.C)",
-      "Institute":"GJC",
-      "Data":["2011-2013","64%"]
+      "degree":"Intermediate(M.P.C)",
+      "institute":"GJC",
+      "data":["2011-2013","64%"]
     },
     {
-      "Degree":"SSC",
-      "Institute":"ZPHS",
-      "Data":["2010-2011","78%"]
+      "degree":"SSC",
+      "institute":"ZPHS",
+      "data":["2010-2011","78%"]
     }
 
 ]
