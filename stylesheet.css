@@ -1,7 +1,12 @@
+tr:nth-child(even){
+  background:#ddd ;
+}
+
 .parent{
-  display:flex;
+  display: flex;
   flex-direction: row;
   justify-content: center;
+  width: auto;
 }
 .child{
   width: 30%;
@@ -50,7 +55,7 @@ a{
   text-decoration: none;
   font-size: 20px;
 }
-/* @media only screen and (min-width:320px) and (max-width:480px)
+/*@media only screen and (min-width:320px) and (max-width:480px)
 parent{
   display:flex;
   flex-direction: row;
@@ -107,7 +112,7 @@ body{
 
 } */
 /* Small screen devices */
-?*@media only screen and (min-width:320px) and (max-width:480px){
+/*@media only screen and (min-width:320px) and (max-width:480px){
   .parent{
     display:flex;
     flex-direction: column;
@@ -133,7 +138,7 @@ body{
 @media only screen and (min-width:481px) and (max-width:768px){
   .parent{
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
   }
   .leftchild{

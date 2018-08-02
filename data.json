@@ -25,6 +25,37 @@
       "data":["2010-2011","78%"]
     }
 
+],
+"skills":[
+  {
+    "title":"Programming Languages",
+    "set":["Java","C","C++"]
+  },
+  {
+    "title":"Web Technologies",
+    "set":["HTML","CSS","PHP","javaScript"]
+  },
+  {
+    "title":"Data Bases",
+    "set":["Sql","MySql","ORACLE","NoSql"]
+  },
+  {
+    "title":"Operating Systems",
+    "set":["Windows","Linux","DOS"]
+  }
+],
+"achievements":[
+  {
+    "achievedData":"Got first prize in PPT presentation."
+  },
+  {
+    "achievedData":"Got first prize in PPT presentation."
+  },
+  {
+    "achievedData":"Got first prize in Technical Quiz."
+  },
+  {
+    "achievedData":"Got first rize in Running."
+  }
 ]
-
 }
